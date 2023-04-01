@@ -1,0 +1,34 @@
+#idb {
+  color: aqua;
+}
+/* img {
+  margin-left: 35%;
+} */
+p {
+  text-align: center;
+}
+#idp2 {
+  font-size: 10px;
+}
+/* .w3s {
+  margin-left: 35%;
+  color: white;
+  background: black; */
+
+.w3s {
+  display: inlin;
+}
+#idw1 {
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(0, 0, 0);
+  /* background: black; */
+}
+#idw2 {
+  color: rgb(0, 0, 0);
+  /* background: black; */
+}
+td {
+  width: 50%;
+  border: 1px solid crimson;
+}

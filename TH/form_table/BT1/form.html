@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header><h1>Create account</h1></header>
+    <main>
+      <fieldset>
+        <legend>From đăng ký</legend>
+
+        <form action="">
+          <b><label for="fist name">first name:</label></b>
+          <input type="text" id="fist name" />
+          <b><label for="last name">last name</label></b>
+          <input type="text" id="last name" />
+          <br /><br />
+          <b><label for="email">Email:</label></b>
+          <input type="text" id="email" placeholder="điền email" />
+          <b><label for="phone">phone</label></b>
+          <input type="number" id="phone" />
+          <br /><br />
+          <b><label for="password">password</label></b>
+          <input type="password" placeholder="điền mật khẩu " />
+          <b><label for="confim password">cofim password</label></b>
+          <input type="password" placeholder="nhập lại mật khẩu" />
+        </form>
+      </fieldset>
+      <fieldset>
+        <legend>pesonal information</legend>
+
+        <form action="">
+          <label for="gender">giới tính:</label>
+          <label for="male">nam</label>
+          <input type="radio" name="gender" value="male" />
+          <label for="female">nữ</label>
+          <input type="radio" name="gender" value="female" />
+          <label for="hobbit">sở thích:</label>
+          <label for="mussic">mussic</label>
+          <input type="checkbox" name="hobbit" id="mussic" />
+          <label for="sport">sport</label>
+          <input type="checkbox" name="hobbit" id="sport" />
+          <label for="travel">travel</label>
+          <input type="checkbox" name="hobbit" id="travel" />
+          <br />
+          <label for="income">source of income</label>
+          <select>
+            <option value="rabit">rabit</option>
+            <option value="kangaroo">kangaroo</option>
+          </select>
+          <label for="price">price:</label>
+          <input type="range" name="price" min="1" max="20" /><br />
+          <label for="age">age</label>
+          <input type="number" id="age" min="0" max="100" />
+          <label for="profile">profile picture</label>
+          <input type="file" name="profile" id="profile" />
+          <br />
+          <label for="birthday">Birthday</label>
+          <input type="date" name="birthday" id="birthday" />
+          <label for="add">address</label>
+          <input type="number" id="add" /><br />
+          <br /><label for="bio">bio:</label>
+          <textarea name="bio" id="bio" cols="40" rows="" 3></textarea>
+        </form>
+      </fieldset>
+      <input type="submit" value="create" />
+      <input type="reset" value="reset" />
+    </main>
+  </body>
+</html>

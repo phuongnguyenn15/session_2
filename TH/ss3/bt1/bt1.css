@@ -1,0 +1,16 @@
+.cl1 {
+  float: left;
+}
+.cl2 {
+  float: right;
+}
+#idhtml {
+  text-align: center;
+  font-family: Montserrat;
+  margin-left: 375px;
+}
+#idcss {
+  text-align: center;
+  font-family: Montserrat;
+  margin-right: 375px;
+}

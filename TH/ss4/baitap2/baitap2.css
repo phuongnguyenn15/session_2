@@ -1,0 +1,41 @@
+#baner {
+  text-align: center;
+  width: 40%;
+  margin-left: 30%;
+  padding: 10px;
+}
+.card {
+  background-color: bisque;
+}
+img {
+  width: 100%;
+}
+.album {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+p {
+  padding: 5px;
+}
+.card-bth {
+  margin-left: 10px;
+}
+@media screen and (max-width: 900px) {
+  .album {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 600px) {
+  .album {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .album {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

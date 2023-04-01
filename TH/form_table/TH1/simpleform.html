@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div
+      style="
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
+        box-shadow: 10px 10px 10px 10px red;
+      "
+    >
+      <form
+        style="margin-left: 50px; padding: 10px"
+        method="get"
+        action="simpleform.html"
+      >
+        <h2>Oder form</h2>
+        <p>What would you like to buy</p>
+        <select>
+          <option value="">A</option>
+          <option value="">B</option>
+          <option value="">C</option></select
+        ><br />
+        <label for="rd">how many would you like to oder?</label><br />
+        <input type="checkbox" />1-$10 <br />
+        <input type="checkbox" />2-$20 <br />
+        <input type="checkbox" />3-$30 <br />
+        <label for="name">Name <span style="color: red">*</span></label
+        ><br />
+        <input style="width: 30%" type="text" placeholder="fistname" />
+        <input style="width: 30%" type="text" placeholder="lastname" /><br />
+        <label for="email">Email</label><br />
+        <input style="width: 65%" type="text" value="email" /><br />
+        <label for="">Phone Number</label><br />
+        <input style="width: 15%" type="text" />-<input
+          style="width: 15%"
+          type="text"
+        />-<input style="width: 15%" type="text" /><br />
+        <input type="submit" style="margin-top: 5px" name="submit" />
+      </form>
+    </div>
+  </body>
+</html>

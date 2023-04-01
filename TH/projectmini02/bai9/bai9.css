@@ -1,0 +1,18 @@
+.card {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+.title1 {
+  text-align: center;
+}
+.card-nth {
+  width: 35%;
+  padding: 30px;
+  display: inline-block;
+  box-shadow: 5px 5px 5px 5px #a09e9e;
+}
+.card-nth1 {
+  width: 55%;
+  display: inline-block;
+  padding: 30px;
+}

@@ -1,0 +1,26 @@
+input {
+  height: 20px;
+  width: 39%;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+select {
+  margin-left: 20px;
+
+  height: 30px;
+  width: 40%;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+textarea {
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.submit {
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
