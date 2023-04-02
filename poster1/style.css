@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 1440px;
+  background-repeat: no-repeat;
+}
+.nav {
+  position: absolute;
+  width: 1160.58px;
+  height: 40px;
+  left: 140.92px;
+  top: 47px;
+  font-size: 17px;
+  z-index: 1000;
+}
+.banner {
+  position: absolute;
+  width: 700.87px;
+  height: 764px;
+  left: 150px;
+  top: 105px;
+  padding: 2px;
+}
+.content {
+  position: absolute;
+  width: 430px;
+  height: 535px;
+  top: 100px;
+}
+.content-nth > h3 {
+  text-transform: uppercase;
+  font-family: "Volkhov", serif;
+  color: red;
+  width: 410px;
+}
+.content-nth > h2 {
+  width: 560px;
+  height: 270px;
+  font-family: "Volkhov", serif;
+  font-size: 75px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #181e4b;
+  line-height: 100%;
+}
+
+.content-nth > p {
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  position: absolute;
+  width: 114.91px;
+  height: 33.99px;
+}
+.menu {
+  position: absolute;
+  left: 287px;
+  display: flex;
+}
+.menu > a {
+  padding: 15px;
+}
+.bgleft {
+  position: absolute;
+  width: 500px;
+  left: 480px;
+  top: -149px;
+  background-image: none;
+}
+.img1 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 555px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.play {
+  position: absolute;
+  width: 165px;
+  height: 34px;
+
+  left: 178px;
+  top: 350px;
+}
+
+.find {
+  position: absolute;
+  width: 170px;
+  height: 35px;
+
+  text-align: center;
+}
+button {
+  position: absolute;
+  width: 170px;
+  height: 35px;
+  left: 1px;
+  background: #b87926;
+}
+.service {
+  position: absolute;
+  width: 900px;
+  line-height: 100%;
+  left: 20px;
+}
+/* img {
+  width: 100%;
+} */
+.categoryall {
+}
+.category {
+  padding: 30px;
+}
