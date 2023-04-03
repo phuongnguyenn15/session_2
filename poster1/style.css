@@ -26,9 +26,19 @@ body {
   top: 105px;
   padding: 2px;
 }
+.banner2 {
+  position: absolute;
+  width: 700px;
+  top: 650px;
+  display: flex;
+}
+
+.content-1 {
+  text-align: center;
+}
 .content {
   position: absolute;
-  width: 430px;
+  width: 630px;
   height: 535px;
   top: 100px;
 }
@@ -58,12 +68,12 @@ body {
 }
 .menu {
   position: absolute;
+  width: 700px;
   left: 287px;
   display: flex;
+  justify-content: space-around;
 }
-.menu > a {
-  padding: 15px;
-}
+
 .bgleft {
   position: absolute;
   width: 500px;
@@ -81,28 +91,15 @@ a {
   text-decoration: none;
   color: black;
 }
-.play {
+.content-nth1 {
   position: absolute;
-  width: 165px;
-  height: 34px;
-
-  left: 178px;
-  top: 350px;
+  width: 430px;
+  top: 365px;
+  display: flex;
+  justify-content: space-around;
 }
-
-.find {
-  position: absolute;
-  width: 170px;
-  height: 35px;
-
-  text-align: center;
-}
-button {
-  position: absolute;
-  width: 170px;
-  height: 35px;
-  left: 1px;
-  background: #b87926;
+.content-nth2 {
+  width: 400px;
 }
 .service {
   position: absolute;
@@ -110,11 +107,10 @@ button {
   line-height: 100%;
   left: 20px;
 }
-/* img {
-  width: 100%;
-} */
-.categoryall {
-}
-.category {
-  padding: 30px;
+.find > button {
+  background: rgb(255, 164, 59);
+  padding: 10px;
+  color: #fffdfd;
+  border-radius: 10px;
+  border: none;
 }
