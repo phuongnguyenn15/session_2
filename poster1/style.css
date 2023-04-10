@@ -31,10 +31,13 @@ body {
   width: 700px;
   top: 650px;
   display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
 }
 
 .content-1 {
   text-align: center;
+  width: 20%;
 }
 .content {
   position: absolute;
@@ -113,4 +116,7 @@ a {
   color: #fffdfd;
   border-radius: 10px;
   border: none;
+}
+.content-1 > img {
+  width: 100px;
 }

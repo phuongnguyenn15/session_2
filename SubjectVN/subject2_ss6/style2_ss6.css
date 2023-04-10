@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+}
+/* css header */
+header {
+  display: inline-flex;
+  background-color: #c7eeff;
+
+  height: 300px;
+}
+/* css content1 */
+.content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 40%;
+  padding: 10px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.id1 {
+  background: #0077c0;
+  color: aliceblue;
+  border: none;
+  padding: 4px;
+
+  border-radius: 4px 4px 4px 4px;
+}
+/* css poster1 */
+.poster1 {
+  position: relative;
+  width: 40%;
+}
+.backgroud {
+  position: absolute;
+  left: 100px;
+  top: 52px;
+}
+.people {
+  position: absolute;
+  width: 220px;
+  top: 5px;
+  left: 100px;
+  z-index: 10;
+}
+.cardmini1 {
+  position: absolute;
+  left: 200px;
+
+  width: 150px;
+}
+.cardmini2 {
+  position: absolute;
+  width: 130px;
+  top: 120px;
+  left: 50px;
+  z-index: 20;
+}
+img {
+  width: 100%;
+}
+/* css phần sections1 */
+section {
+  padding-left: 50px;
+}
+.title1 {
+  text-align: center;
+  padding-left: 37%;
+  padding-right: 37%;
+}
+section > .content2 {
+  display: flex;
+  gap: 10px;
+}
+
+.card-nth {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  background: #faf1d5;
+  margin: 10px;
+}
+.Avatar {
+  width: 50px;
+  height: 50px;
+}
+.star {
+  position: absolute;
+  width: 100px;
+  top: 45px;
+  left: 74px;
+}
+.card-nth > h5 {
+  position: absolute;
+  left: 79px;
+  top: 27px;
+}
+.card-nth > p {
+  font-size: 10px;
+}
+.title1 > h4 {
+  font-family: "Volkhov", serif;
+  color: #0077c0;
+  font-size: 12px;
+}
+/* css phần sections2 */
+.cardBlue {
+  display: flex;
+  background: #0077c0;
+  color: white;
+}
+.people2 > img {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.id2 {
+  font-size: 15px;
+  color: blue;
+  background: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 15px;
+}
+.cardBlue > .content {
+  margin-top: 20px;
+}
+.content > h2 {
+  margin-top: 15px;
+}
+.content > h4 {
+  font-size: 12px;
+  margin-top: 40px;
+}

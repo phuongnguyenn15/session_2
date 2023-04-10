@@ -1,0 +1,4 @@
+tìm hiểu sơ đồ DOM ?
+.tofixed(số thập phân)
+$??
+bai tập vn 1:

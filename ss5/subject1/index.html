@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai1- Tính</title>
+  </head>
+  <body>
+    <section class="card">
+      <h2>Bài Tập 1</h2>
+      <button onclick="sum()">tính điểm trung bình</button>
+    </section>
+    <script>
+      // number()
+      // parseFloat() --> lấy phần số thực
+      // +
+      // parseInt() --> Lấy phần nguyên
+      function sum() {
+        const mathmark = Number(prompt("nhập điểm toán"));
+        const physicsmark = Number(prompt("nhập điểm lý"));
+        const biologymark = Number(prompt("nhập điểm sinh"));
+        const sum = mathmark + physicsmark + biologymark;
+        const average = sum / 3;
+        console.log("Kiểm tra tổng", sum, "trung bình cộng là:", average);
+        //   toFixed(x) ; x là số làm tròn sau dấu phẩy
+      }
+    </script>
+    <section class="card1">
+      <h2>bài tập 2</h2>
+      <button onclick="Fahrenheit()">đổi Độ C sang Độ F</button>
+    </section>
+    <script>
+      function Fahrenheit() {
+        const Celsius = Number(prompt(" độ C"));
+
+        const Fahrenheit = (Celsius / 5) * 9 + 32;
+        console.log("kiểm tra kết quả", Fahrenheit);
+      }
+    </script>
+    <!-- bài tập 3 -->
+    <section class="card2">
+      <h2>Bài Tập 3</h2>
+      <button onclick="acreage()">Diện Tích Hình Tròn</button>
+    </section>
+    <script>
+      function acreage() {
+        const radius = Number(prompt("Bán Kính"));
+        let x=3,14;
+        const acreage = radius*radius*x
+        console.log("kiểm tra kết quả", acreage);
+      }
+    </script>
+  </body>
+</html>

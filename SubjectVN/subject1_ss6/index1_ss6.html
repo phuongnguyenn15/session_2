@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style1_ss6.css" />
+  </head>
+  <body>
+    <section class="card">
+      <h2>Bài 1</h2>
+      <button onclick="ketqua()">kết quả a chia b</button>
+    </section>
+    <section class="card">
+      <h2>Bài 2</h2>
+      <button onclick="ageclass10()">học sinh có đủ tuổi vào lớp 10</button>
+    </section>
+    <section class="card">
+      <h2>Bài 3</h2>
+      <button onclick="integerComparison()">
+        Xác định số nguyên lớn hay nhỏ hơn 0
+      </button>
+    </section>
+    <section class="card">
+      <h2>Bài 4</h2>
+      <button onclick="songuyen()">tìm số nguyên giá trị lớn nhất</button>
+    </section>
+
+    <section class="card">
+      <h2>Bài 5</h2>
+      <button onclick="rankStuden()">Xếp hạng học sinh</button>
+    </section>
+
+    <script>
+      function ketqua() {
+        const a = Number(prompt("nhập a"));
+        const b = Number(prompt("Nhập b"));
+        if (a % b == 0) {
+          alert("a chia hết cho b");
+        } else {
+          alert("a không chia hết cho b");
+        }
+      }
+      function songuyen() {
+        const a = Number(prompt("nhập số đầu tiên"));
+        const b = Number(prompt("nhập số thứ 2"));
+        const c = Number(prompt("nhập số thứ 3"));
+        if (a > b && a > c) {
+          alert("a là số nguyên lớn nhất");
+        } else if (b > c) {
+          alert("b là số nguyên lớn nhất");
+        } else {
+          alert("c là số nguyên lớn nhất");
+        }
+      }
+      function ageclass10() {
+        const age = Number(prompt("Nhập số tuổi"));
+        if (age >= 16) {
+          alert("đủ tuổi vào lớp 10");
+        } else {
+          alert("không đủ tuổi vào lớp 10");
+        }
+      }
+      function rankStuden() {
+        const gk1 = Number(prompt("nhập điểm kiểm tra giữa kỳ"));
+        const ck2 = Number(prompt("nhập điểm kiểm tra cuối kỳ"));
+        const ktgk = gk1 * 2;
+        const ktck = ck2 * 3;
+        const dtk = (ktgk + ktck) / 5;
+        console.log("kiểm tra dtk", dtk);
+        if (dtk >= 8) {
+          alert("Học sinh giỏi");
+        } else if (dtk >= 7) {
+          alert("Học sinh khá");
+        } else if (dtk >= 5) {
+          alert("Học sinh trung bình");
+        } else {
+          alert("Học sinh yếu");
+        }
+      }
+      function integerComparison() {
+        const integer = Number(prompt("Nhập số nguyên a"));
+        if (integer > 0) {
+          alert("a là số nguyên lớn hơn 0");
+        } else if (integer == 0) {
+          alert("a là số nguyên bằng 0");
+        } else {
+          alert("a là số nguyên nhỏ hơn 0");
+        }
+      }
+    </script>
+  </body>
+</html>
